@@ -1,4 +1,4 @@
-### Olá! Eu sou o Jean, seja bem vindo.👋
+### Olá! Seja bem vindo.👋
 
 ### Tecnologias:
 
