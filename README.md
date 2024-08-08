@@ -1,23 +1,22 @@
-### Hello! Welcome😎
+### Hello! Welcome.👋
 
-### Main Techs:
+Hello, my name is Jean Pedro, I really like technology!
 
-<div style="display: inline_block"><br/>
- <img align="center" alt="HTML5" src="https://img.icons8.com/?size=100&id=Vzxgh92LHIwO&format=png&color=000000" />
+This is where I spend most of my time, where creativity and imagination turn into lines of code.
 
- <img align="center" alt="CSS3" src="https://img.icons8.com/?size=100&id=32880&format=png&color=000000"/>
+Languages and Tools:
+<div style="display: inline_block">
+ <img align="center" alt="html5" height ="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" />
+ <img align="center" alt="css3" height ="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" />
+ <img align="center" alt="javascript" height ="40" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />   
+ <img align="center" alt="HTML5" height ="40" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg" /> 
+ <img align="center" alt="react" height ="40" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
+ <img align="center" alt="tailwindcss" height ="40" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" /><br/><br/>
+                         
 
- <img align="center" alt="JavaScript" src="https://img.icons8.com/?size=100&id=102838&format=png&color=000000" />
+Contact:
 
- <img align="center" alt="TypeScript" src="https://img.icons8.com/?size=100&id=0FC8MqL9J16f&format=png&color=000000" />
-
- <img align="center" alt="React" src="https://img.icons8.com/?size=100&id=SB6eApJMkq1S&format=png&color=000000"/>
-
- <img align="center" alt="Tailwind CSS" src="https://img.icons8.com/?size=100&id=qOFWMoaAQIdR&format=png&color=000000"/>
-
-### Contact:
-
-[![Linkedin](https://img.icons8.com/?size=100&id=GP0AgPAuQ2xA&format=png&color=000000
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 )](https://www.linkedin.com/in/jean-pedro-/)
 
 ![Jean GitHub stats](https://github-readme-stats.vercel.app/api?username=jjeanpedro03&show_icons=true&theme=dracula)
