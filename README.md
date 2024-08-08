@@ -1,6 +1,6 @@
-### Olá! Seja bem vindo.👋
+### Hello! Welcome😎
 
-### Tecnologias:
+### Main Techs:
 
 <div style="display: inline_block"><br/>
  <img align="center" alt="HTML5" src="https://img.icons8.com/?size=100&id=Vzxgh92LHIwO&format=png&color=000000" />
@@ -15,7 +15,7 @@
 
  <img align="center" alt="Tailwind CSS" src="https://img.icons8.com/?size=100&id=qOFWMoaAQIdR&format=png&color=000000"/>
 
-### Contato:
+### Contact:
 
 [![Linkedin](https://img.icons8.com/?size=100&id=GP0AgPAuQ2xA&format=png&color=000000
 )](https://www.linkedin.com/in/jean-pedro-/)
