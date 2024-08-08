@@ -11,7 +11,7 @@
 
  <img align="center" alt="TypeScript" src="https://img.icons8.com/?size=100&id=0FC8MqL9J16f&format=png&color=000000" />
 
- <img align="center" alt="React" src="https://img.icons8.com/?size=100&id=J79emsSv2QCu&format=png&color=000000"/>
+ <img align="center" alt="React" src="https://img.icons8.com/?size=100&id=SB6eApJMkq1S&format=png&color=000000"/>
 
  <img align="center" alt="Tailwind CSS" src="https://img.icons8.com/?size=100&id=qOFWMoaAQIdR&format=png&color=000000"/>
 
