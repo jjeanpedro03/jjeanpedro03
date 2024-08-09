@@ -1,6 +1,6 @@
 ### Hello! Welcome.👋
 
-Hello, my name is Jean Pedro, I really like technology!
+My name is Jean Pedro, I really like technology!
 
 This is where I spend most of my time, where creativity and imagination turn into lines of code.
 
