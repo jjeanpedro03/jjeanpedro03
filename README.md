@@ -10,8 +10,8 @@ This is where I spend most of my time, where creativity and imagination turn int
 
 ### Portifolio
 
-- [JavaScript - Automotive-Selector](https://github.com/jjeanpedro03/Seletor-Automotivo-Automotive-Selector-)
-- [JavaScript - Animated-Slider](https://github.com/jjeanpedro03/Slider-Animado-Animated-Slider-)
+- [JavaScript - Automotive Selector](https://github.com/jjeanpedro03/Seletor-Automotivo-Automotive-Selector-)
+- [JavaScript - Password Generator](https://github.com/jjeanpedro03/Gerador-de-senha-Password-Generator-)
 ---
 <h3>Programming Languages</h3>
 <div style="display: inline_block">
