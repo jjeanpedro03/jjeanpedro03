@@ -22,9 +22,6 @@ This is where I spend most of my time, where creativity and imagination turn int
 <h3>Tools & Frameworks</h3>
 <div style="display: inline_block">
  <img align="center" alt="VScode" height="40" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
- <img align="center" alt="Chris-AWS" height="40" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
- <img align="center" alt="react" height ="40" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" />
-
 ---
 <h3>Contact</h3>
 
