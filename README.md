@@ -22,7 +22,7 @@ This is where I spend most of my time, where creativity and imagination turn int
 <h3>Tools & Frameworks</h3>
 <div style="display: inline_block">
  <img align="center" alt="VScode" height="40" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
----
+
 <h3>Contact</h3>
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
