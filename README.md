@@ -12,7 +12,7 @@ This is where I spend most of my time, where creativity and imagination turn int
 
 - [JavaScript - Automotive Selector](https://github.com/jjeanpedro03/Seletor-Automotivo-Automotive-Selector-)
 - [JavaScript - Password Generator](https://github.com/jjeanpedro03/Gerador-de-senha-Password-Generator-)
----
+
 <h3>Programming Languages</h3>
 <div style="display: inline_block">
  <img align="center" alt="html5" height ="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" />
