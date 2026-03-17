@@ -5,9 +5,16 @@ on:
     - cron: "0 */12 * * *" 
   workflow_dispatch:
 
+# Adiciona permissões explícitas para evitar o erro de permissão (exit code 4)
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # Resolve o aviso de depreciação
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
