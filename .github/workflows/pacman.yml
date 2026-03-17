@@ -28,26 +28,21 @@ jobs:
             exit 1
           fi
 
-      - name: Apply neon maze theme
+      - name: Apply dark + neon style (force)
         run: |
           FILE="pacman.svg"
 
-          # Fundo escuro (GitHub dark)
-          sed -i 's/#ffffff/#0d1117/g' $FILE
+          # Fundo escuro
+          sed -i 's/<svg/<svg style="background-color:#0d1117"/g' $FILE
 
-          # Grid vazio (sem commits)
-          sed -i 's/#ebedf0/#161b22/g' $FILE
+          # Deixa todo o grid escuro
+          sed -i 's/fill="[^"]*"/fill="#161b22"/g' $FILE
 
-          # Caminhos (simulando labirinto neon)
-          sed -i 's/#9be9a8/#00ffff/g' $FILE
-          sed -i 's/#40c463/#00ccff/g' $FILE
-          sed -i 's/#30a14e/#0099ff/g' $FILE
-          sed -i 's/#216e39/#0066ff/g' $FILE
-
-          # Pac-Man (ciano neon)
+          # Pac-Man ciano neon
           sed -i 's/yellow/#00ffff/g' $FILE
+          sed -i 's/#ffd700/#00ffff/g' $FILE
 
-          # Fantasmas (cores vibrantes)
+          # Fantasmas com cores vibrantes
           sed -i 's/#ff0000/#ff00ff/g' $FILE
           sed -i 's/#00ff00/#00ffff/g' $FILE
           sed -i 's/#0000ff/#ff4cff/g' $FILE
