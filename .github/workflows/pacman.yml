@@ -23,41 +23,29 @@ jobs:
           FILE=$(ls dist/*.svg | head -n 1)
           mv "$FILE" pacman.svg
 
-      - name: Apply Transparent White Grid Theme
+      - name: Apply Style (Transparent Grid & Original Colors)
         run: |
           FILE="pacman.svg"
 
-          # 1. Limpeza de Estilos e Fundo Preto Total
+          # 1. Fundo Preto e remoção de bordas arredondadas (efeito gelatina)
           sed -i 's/<svg/<svg style="background-color:#000000"/g' $FILE
-          
-          # 2. Torna os quadrados TOTALMENTE TRANSPARENTES e remove arredondamento
-          # 'fill="none"' é o segredo para não ter cor dentro, nem preto.
-          sed -i 's/fill="[^"]*"/fill="none"/g' $FILE
           sed -i 's/rx="[^"]*"/rx="0"/g' $FILE
           sed -i 's/ry="[^"]*"/ry="0"/g' $FILE
           
-          # 3. Define a linha do grid: Branca, Fina e Sem Opacidade (100% Branca)
-          # Isso cria o traçado nítido da foto de exemplo
+          # 2. Deixa os quadrados sem cor interna e aplica a linha branca fina do exemplo
+          sed -i 's/fill="[^"]*"/fill="none"/g' $FILE
           sed -i 's/<rect /<rect stroke="#ffffff" stroke-width="0.1" stroke-opacity="1" /g' $FILE
 
-          # 4. DEVOLVE A COR SÓLIDA APENAS PARA OS PERSONAGENS
-          # (Se não fizermos isso, o Pacman e fantasmas também viram apenas linhas)
-          
+          # 3. Devolve a cor sólida aos personagens (evita que fiquem transparentes)
           # Pac-man Amarelo
           sed -i 's/fill="none"[^>]*#FFD700/fill="#FFFF00" stroke="none"/g' $FILE
           sed -i 's/fill="none"[^>]*yellow/fill="#FFFF00" stroke="none"/g' $FILE
 
-          # Blinky (Vermelho)
+          # Fantasmas (Cores Originais)
           sed -i 's/fill="none"[^>]*#ff0000/fill="#FF0000" stroke="none"/g' $FILE
           sed -i 's/fill="none"[^>]*#ff4cff/fill="#FF0000" stroke="none"/g' $FILE
-          
-          # Pinky (Rosa)
           sed -i 's/fill="none"[^>]*#7a5cff/fill="#FF69B4" stroke="none"/g' $FILE
-          
-          # Inky (Ciano)
           sed -i 's/fill="none"[^>]*#00ffff/fill="#00FFFF" stroke="none"/g' $FILE
-          
-          # Clyde (Laranja)
           sed -i 's/fill="none"[^>]*#ffa500/fill="#FF8C00" stroke="none"/g' $FILE
 
       - name: Commit and push
@@ -67,5 +55,5 @@ jobs:
 
           git checkout -B output
           git add pacman.svg
-          git commit -m "style: grid branco transparente identico ao exemplo" || echo "no changes"
+          git commit -m "style: grid branco transparente real" || echo "no changes"
           git push origin output --force
