@@ -10,21 +10,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate Pacman
+      - name: Generate Pacman contribution graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: jjeanpedro03
 
-      - name: Push to output branch (safe)
+      - name: Apply dark theme (neon style)
+        run: |
+          FILE="dist/pacman-contribution-graph.svg"
+
+          # Fundo preto
+          sed -i 's/#ffffff/#0d1117/g' $FILE
+
+          # Grid vazio escuro
+          sed -i 's/#ebedf0/#161b22/g' $FILE
+
+          # Pac-Man mais vibrante
+          sed -i 's/yellow/#00ffff/g' $FILE
+
+          # Fantasmas mais fortes (ajuste geral de cores)
+          sed -i 's/#ff0000/#ff4cff/g' $FILE
+          sed -i 's/#00ff00/#00ffff/g' $FILE
+          sed -i 's/#0000ff/#ff00ff/g' $FILE
+
+      - name: Commit and push to output branch
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
           git checkout -B output
           git add .
-          git commit -m "update pacman" || echo "no changes"
-
+          git commit -m "update pacman dark neon" || echo "no changes"
           git push origin output --force
