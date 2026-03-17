@@ -1,0 +1,40 @@
+name: Generate Pacman
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Pacman
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: jjeanpedro03
+
+      - name: Move and rename SVG
+        run: |
+          mv dist/*.svg pacman.svg
+
+      - name: Apply dark theme
+        run: |
+          FILE="pacman.svg"
+
+          sed -i 's/#ffffff/#0d1117/g' $FILE
+          sed -i 's/#ebedf0/#161b22/g' $FILE
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          git checkout -B output
+          git add pacman.svg
+          git commit -m "update pacman" || echo "no changes"
+          git push origin output --force
