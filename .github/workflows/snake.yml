@@ -14,14 +14,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Gera o snake
+      # Gera o snake (estilo futurista)
       - name: Generate snake
         uses: Platane/snk@v3
         with:
           github_user_name: jjeanpedro03
-          outputs: dist/snake.svg?color_snake=#00FFFF&color_dots=#0d1117,#0d1117,#0e4429,#006d32,#26a641,#39d353&background=#0d1117
+          outputs: |
+            dist/snake.svg?color_snake=#00FFFF&color_dots=#0d1117,#0d1117,#0e4429,#006d32,#26a641,#39d353&background=#0d1117
 
-      # Faz push FORÇADO (resolve seu erro)
+      # Push forçado (não dá mais erro)
       - name: Push snake
         run: |
           git config user.name "github-actions"
