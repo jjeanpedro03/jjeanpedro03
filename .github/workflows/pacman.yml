@@ -5,24 +5,26 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - name: Generate Pacman contribution graph
+      - name: Generate Pacman
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: jjeanpedro03
 
-      - name: Push to output branch
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: "update pacman"
-          add: "."
-          push: true
+      - name: Push to output branch (safe)
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+
+          git checkout -B output
+          git add .
+          git commit -m "update pacman" || echo "no changes"
+
+          git push origin output --force
