@@ -19,14 +19,14 @@ Hello, my name is Jean Pedro. I'm a Full-Stack developer specializing in JavaScr
 [![Job](https://img.shields.io/badge/Job-0078D4?logo=microsoft&logoColor=white)](mailto:jjeanpedro20@gmail.com?subject=Oportunidade%20de%20Trabalho)
 [![Project](https://img.shields.io/badge/Project-28A745?logo=github&logoColor=white)](mailto:jjeanpedro20@gmail.com?subject=Proposta%20de%20Projeto)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/pacman.svg" alt="Pacman Contributions" />
-</p>
-
 ## 📊 GitHub Stats:
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=jjeanpedro03&theme=transparent&hide_border=false&count_private=true" />
   <img src="https://nirzak-streak-stats.vercel.app/?user=jjeanpedro03&theme=transparent&hide_border=false" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jjeanpedro03&theme=transparent&hide_border=false&layout=compact" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/pacman.svg" alt="Pacman Contributions" />
 </p>
