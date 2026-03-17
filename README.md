@@ -30,5 +30,5 @@ Hello, my name is Jean Pedro. I'm a Full-Stack developer specializing in JavaScr
 <p align="center">
   <img src="https://github.com/jjeanpedro03/jjeanpedro03/blob/output/pacman.svg" />
 </p>
----
+
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
