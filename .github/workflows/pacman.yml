@@ -2,58 +2,37 @@ name: Generate Pacman
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *" 
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate Pacman
-        uses: abozanona/pacman-contribution-graph@main
+      # Gera a animação baseada nas suas contribuições reais
+      - name: Generate Pacman Animation
+        uses: Platane/snk@v3
         with:
           github_user_name: jjeanpedro03
+          outputs: |
+            dist/pacman.svg?color_snake=#FFFF00&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&palette=github-dark
 
-      - name: Move and rename SVG
+      - name: Apply Neon Style (Customization)
         run: |
-          FILE=$(ls dist/*.svg | head -n 1)
-          mv "$FILE" pacman.svg
+          FILE="dist/pacman.svg"
+          # Força o fundo preto e as linhas brancas finas no grid
+          sed -i 's/background-color:[^;"]*/background-color:#000000/g' $FILE
+          sed -i 's/stroke="[^"]*"/stroke="#ffffff" stroke-width="0.1" stroke-opacity="0.4"/g' $FILE
+          # Garante que o Pacman (Snake) continue amarelo
+          sed -i 's/fill="#FFFF00"/fill="#FFFF00" stroke="none"/g' $FILE
 
-      - name: Apply Style (Transparent Grid & Original Colors)
-        run: |
-          FILE="pacman.svg"
-
-          # 1. Fundo Preto e remoção de bordas arredondadas (efeito gelatina)
-          sed -i 's/<svg/<svg style="background-color:#000000"/g' $FILE
-          sed -i 's/rx="[^"]*"/rx="0"/g' $FILE
-          sed -i 's/ry="[^"]*"/ry="0"/g' $FILE
-          
-          # 2. Deixa os quadrados sem cor interna e aplica a linha branca fina do exemplo
-          sed -i 's/fill="[^"]*"/fill="none"/g' $FILE
-          sed -i 's/<rect /<rect stroke="#ffffff" stroke-width="0.1" stroke-opacity="1" /g' $FILE
-
-          # 3. Devolve a cor sólida aos personagens (evita que fiquem transparentes)
-          # Pac-man Amarelo
-          sed -i 's/fill="none"[^>]*#FFD700/fill="#FFFF00" stroke="none"/g' $FILE
-          sed -i 's/fill="none"[^>]*yellow/fill="#FFFF00" stroke="none"/g' $FILE
-
-          # Fantasmas (Cores Originais)
-          sed -i 's/fill="none"[^>]*#ff0000/fill="#FF0000" stroke="none"/g' $FILE
-          sed -i 's/fill="none"[^>]*#ff4cff/fill="#FF0000" stroke="none"/g' $FILE
-          sed -i 's/fill="none"[^>]*#7a5cff/fill="#FF69B4" stroke="none"/g' $FILE
-          sed -i 's/fill="none"[^>]*#00ffff/fill="#00FFFF" stroke="none"/g' $FILE
-          sed -i 's/fill="none"[^>]*#ffa500/fill="#FF8C00" stroke="none"/g' $FILE
-
-      - name: Commit and push
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-
-          git checkout -B output
-          git add pacman.svg
-          git commit -m "style: grid branco transparente real" || echo "no changes"
-          git push origin output --force
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
