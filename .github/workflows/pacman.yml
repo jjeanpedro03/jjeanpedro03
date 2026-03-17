@@ -18,34 +18,32 @@ jobs:
         with:
           github_user_name: jjeanpedro03
 
-      - name: Move and rename SVG (safe)
+      - name: Move and rename SVG
         run: |
-          if [ -d "dist" ]; then
-            FILE=$(ls dist/*.svg | head -n 1)
-            mv "$FILE" pacman.svg
-          else
-            echo "dist folder not found"
-            exit 1
-          fi
+          FILE=$(ls dist/*.svg | head -n 1)
+          mv "$FILE" pacman.svg
 
-      - name: Apply dark + neon style (force)
+      - name: Apply dark theme + maze effect
         run: |
           FILE="pacman.svg"
 
           # Fundo escuro
           sed -i 's/<svg/<svg style="background-color:#0d1117"/g' $FILE
 
-          # Deixa todo o grid escuro
+          # Grid escuro base
           sed -i 's/fill="[^"]*"/fill="#161b22"/g' $FILE
 
-          # Pac-Man ciano neon
-          sed -i 's/yellow/#00ffff/g' $FILE
-          sed -i 's/#ffd700/#00ffff/g' $FILE
+          # --- PACMAN (mantém amarelo) ---
+          sed -i 's/#00ffff/#FFD700/g' $FILE
+          sed -i 's/yellow/#FFD700/g' $FILE
 
-          # Fantasmas com cores vibrantes
-          sed -i 's/#ff0000/#ff00ff/g' $FILE
+          # --- FANTASMAS (cores neon leves) ---
+          sed -i 's/#ff0000/#ff4cff/g' $FILE
           sed -i 's/#00ff00/#00ffff/g' $FILE
-          sed -i 's/#0000ff/#ff4cff/g' $FILE
+          sed -i 's/#0000ff/#7a5cff/g' $FILE
+
+          # --- CRIA GRID/LABIRINTO ---
+          sed -i 's/<rect /<rect stroke="#1f6feb" stroke-width="0.5" /g' $FILE
 
       - name: Commit and push
         run: |
@@ -54,5 +52,5 @@ jobs:
 
           git checkout -B output
           git add pacman.svg
-          git commit -m "update pacman neon" || echo "no changes"
+          git commit -m "update pacman maze style" || echo "no changes"
           git push origin output --force
