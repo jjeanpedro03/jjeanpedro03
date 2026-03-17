@@ -19,8 +19,7 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: jjeanpedro03
-          outputs: |
-            dist/snake.svg?color_snake=cyan&color_dots=#161b22,#161b22,#0e4429,#006d32,#26a641,#39d353&background=transparent
+          outputs: dist/snake.svg?color_snake=#00FFFF&color_dots=#0d1117,#0d1117,#0e4429,#006d32,#26a641,#39d353&background=#0d1117
 
       # Faz push FORÇADO (resolve seu erro)
       - name: Push snake
