@@ -10,19 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # ✅ PASSO 1: baixar o repositório (ESSENCIAL)
+      # Baixa o repositório
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # ✅ PASSO 2: gerar o snake
+      # Gera o snake
       - name: Generate snake
         uses: Platane/snk@v3
         with:
           github_user_name: jjeanpedro03
           outputs: |
-            dist/snake.svg?color_snake=cyan&background=transparent
+            dist/snake.svg?color_snake=cyan&color_dots=#161b22,#161b22,#0e4429,#006d32,#26a641,#39d353&background=transparent
 
-      # ✅ PASSO 3: enviar para branch output
+      # Faz commit na branch output
       - name: Push snake
         uses: EndBug/add-and-commit@v9
         with:
