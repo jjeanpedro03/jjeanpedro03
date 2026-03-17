@@ -1,13 +1,6 @@
 ## 💫 About Me:
 Hello, my name is Jean Pedro. I'm a Full-Stack developer specializing in JavaScript, with knowledge of frameworks, libraries, and complementary tools. Welcome to my profile.<br>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jean-pedro03) 
-
-## 📫 Contact:
-[![Job](https://img.shields.io/badge/Job-0078D4?logo=microsoft&logoColor=white)](mailto:jjeanpedro20@gmail.com?subject=Oportunidade%20de%20Trabalho&body=Olá%20Jean,%20vi%20seu%20perfil%20e%20gostaria%20de%20falar%20sobre%20uma%20oportunidade.)
-[![Project](https://img.shields.io/badge/Project-28A745?logo=github&logoColor=white)](mailto:jjeanpedro20@gmail.com?subject=Proposta%20de%20Projeto&body=Olá%20Jean,%20tenho%20um%20projeto%20e%20gostaria%20de%20discutir%20com%20você.)
-
 ## 💻 Tech Stack:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E) 
@@ -20,6 +13,13 @@ Hello, my name is Jean Pedro. I'm a Full-Stack developer specializing in JavaScr
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white) 
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat-square&logo=mysql&logoColor=white) 
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat-square&logo=Canva&logoColor=white)
+
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/jean-pedro03) 
+
+## 📫 Contact:
+[![Job](https://img.shields.io/badge/Job-0078D4?logo=microsoft&logoColor=white)](mailto:jjeanpedro20@gmail.com?subject=Oportunidade%20de%20Trabalho&body=Olá%20Jean,%20vi%20seu%20perfil%20e%20gostaria%20de%20falar%20sobre%20uma%20oportunidade.)
+[![Project](https://img.shields.io/badge/Project-28A745?logo=github&logoColor=white)](mailto:jjeanpedro20@gmail.com?subject=Proposta%20de%20Projeto&body=Olá%20Jean,%20tenho%20um%20projeto%20e%20gostaria%20de%20discutir%20com%20você.)
 
 ## 📊 GitHub Stats:
 
