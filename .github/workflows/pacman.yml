@@ -2,8 +2,8 @@ name: Generate Pacman
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Roda a cada 12 horas
-  workflow_dispatch: # Permite rodar manualmente
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
@@ -27,26 +27,31 @@ jobs:
         run: |
           FILE="pacman.svg"
 
-          # 1. Ajusta o fundo para preto absoluto
+          # 1. Fundo do SVG em preto absoluto
           sed -i 's/background-color:[^;"]*/background-color:#000000/g' $FILE
           sed -i 's/<svg/<svg style="background-color:#000000"/g' $FILE
 
-          # 2. Transforma os quadrados do fundo em preto (remove o ciano)
-          # e adiciona a borda roxa/azul para criar o efeito de labirinto
+          # 2. Deixa os quadradinhos de contribuição totalmente "invisíveis"
+          # (Sem cor interna e sem borda)
           sed -i 's/fill="[^"]*"/fill="#000000"/g' $FILE
-          sed -i 's/<rect /<rect stroke="#8A2BE2" stroke-width="0.4" stroke-opacity="0.8" /g' $FILE
+          sed -i 's/stroke="[^"]*"/stroke="none"/g' $FILE
 
-          # 3. Restaura o Pac-man para Amarelo Brilhante
-          # (O gerador costuma usar essas tags para o herói)
+          # 3. Adiciona as linhas do labirinto (Grid Neon)
+          # Vamos injetar um padrão de linhas roxas/azuis que simula o grid
+          # sem prender a cor aos quadradinhos de commit
+          sed -i '/<svg/a <defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="#8A2BE2" stroke-width="0.2" stroke-opacity="0.5"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)" />' $FILE
+
+          # 4. Restaura as cores originais dos Personagens (Cores Vibrantes)
+          # Pac-man Amarelo
           sed -i 's/fill="#FFD700"/fill="#FFFF00"/g' $FILE
           sed -i 's/fill="yellow"/fill="#FFFF00"/g' $FILE
 
-          # 4. Define as cores originais dos Fantasmas (Cores vibrantes)
+          # Fantasmas (Cores clássicas)
           # Blinky (Vermelho)
           sed -i 's/fill="#ff4cff"/fill="#FF0000"/g' $FILE
           # Pinky (Rosa)
           sed -i 's/fill="#7a5cff"/fill="#FF69B4"/g' $FILE
-          # Inky (Ciano/Azul claro)
+          # Inky (Ciano)
           sed -i 's/fill="#00ffff"/fill="#00FFFF"/g' $FILE
           # Clyde (Laranja)
           sed -i 's/fill="#ffa500"/fill="#FF8C00"/g' $FILE
@@ -58,5 +63,5 @@ jobs:
 
           git checkout -B output
           git add pacman.svg
-          git commit -m "feat: labirinto neon estilo retro" || echo "no changes"
+          git commit -m "style: labirinto limpo com personagens originais" || echo "no changes"
           git push origin output --force
