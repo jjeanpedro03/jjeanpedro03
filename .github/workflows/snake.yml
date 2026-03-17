@@ -12,7 +12,7 @@ jobs:
     steps:
       # Baixa o repositório
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Gera o snake
       - name: Generate snake
@@ -22,10 +22,12 @@ jobs:
           outputs: |
             dist/snake.svg?color_snake=cyan&color_dots=#161b22,#161b22,#0e4429,#006d32,#26a641,#39d353&background=transparent
 
-      # Faz commit na branch output
+      # Faz push FORÇADO (resolve seu erro)
       - name: Push snake
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: "update snake"
-          add: "dist/*"
-          new_branch: output
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git checkout -B output
+          git add dist/*
+          git commit -m "update snake" || echo "No changes"
+          git push origin output --force
