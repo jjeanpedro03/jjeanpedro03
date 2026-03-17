@@ -23,27 +23,27 @@ jobs:
           FILE=$(ls dist/*.svg | head -n 1)
           mv "$FILE" pacman.svg
 
-      - name: Apply High Contrast White Grid
+      - name: Apply Transparent White Grid Theme
         run: |
           FILE="pacman.svg"
 
-          # 1. Limpeza Total e Fundo Preto
-          # Remove estilos inline e define o fundo como preto puro
+          # 1. Limpeza de Estilos e Fundo Preto Total
           sed -i 's/<svg/<svg style="background-color:#000000"/g' $FILE
           
-          # 2. Transforma os quadrados em linhas brancas puras e "secas"
-          # Remove o preenchimento (fill) e qualquer arredondamento (rx/ry) que causa o efeito de gelatina
+          # 2. Torna os quadrados TOTALMENTE TRANSPARENTES e remove arredondamento
+          # 'fill="none"' é o segredo para não ter cor dentro, nem preto.
           sed -i 's/fill="[^"]*"/fill="none"/g' $FILE
           sed -i 's/rx="[^"]*"/rx="0"/g' $FILE
           sed -i 's/ry="[^"]*"/ry="0"/g' $FILE
           
-          # Aplica a borda branca com opacidade alta para ficar bem clara
-          sed -i 's/<rect /<rect stroke="#ffffff" stroke-width="0.3" stroke-opacity="0.9" /g' $FILE
+          # 3. Define a linha do grid: Branca, Fina e Sem Opacidade (100% Branca)
+          # Isso cria o traçado nítido da foto de exemplo
+          sed -i 's/<rect /<rect stroke="#ffffff" stroke-width="0.1" stroke-opacity="1" /g' $FILE
 
-          # 3. Identifica e restaura os Personagens (Pacman e Fantasmas)
-          # Aqui devolvemos o preenchimento sólido apenas para eles
+          # 4. DEVOLVE A COR SÓLIDA APENAS PARA OS PERSONAGENS
+          # (Se não fizermos isso, o Pacman e fantasmas também viram apenas linhas)
           
-          # Pac-man (Amarelo)
+          # Pac-man Amarelo
           sed -i 's/fill="none"[^>]*#FFD700/fill="#FFFF00" stroke="none"/g' $FILE
           sed -i 's/fill="none"[^>]*yellow/fill="#FFFF00" stroke="none"/g' $FILE
 
@@ -67,5 +67,5 @@ jobs:
 
           git checkout -B output
           git add pacman.svg
-          git commit -m "style: grid branco nitido e fundo preto" || echo "no changes"
+          git commit -m "style: grid branco transparente identico ao exemplo" || echo "no changes"
           git push origin output --force
