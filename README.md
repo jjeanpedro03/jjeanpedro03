@@ -27,7 +27,5 @@ Hello, my name is Jean Pedro. I'm a Full-Stack developer specializing in JavaScr
 ![](https://nirzak-streak-stats.vercel.app/?user=jjeanpedro03&theme=transparent&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=jjeanpedro03&theme=transparent&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
 
-![Snake animation](https://github.com/jjeanpedro03/jjeanpedro03/blob/output/dist/snake.svg)
-
 ---
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
