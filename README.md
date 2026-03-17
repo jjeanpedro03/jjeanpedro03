@@ -27,5 +27,8 @@ Hello, my name is Jean Pedro. I'm a Full-Stack developer specializing in JavaScr
 ![](https://nirzak-streak-stats.vercel.app/?user=jjeanpedro03&theme=transparent&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=jjeanpedro03&theme=transparent&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
 
+<p align="center">
+  <img src="https://github.com/jjeanpedro03/jjeanpedro03/blob/output/pacman.svg" />
+</p>
 ---
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
