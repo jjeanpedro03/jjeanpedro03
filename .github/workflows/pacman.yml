@@ -5,16 +5,12 @@ on:
     - cron: "0 */12 * * *" 
   workflow_dispatch:
 
-# Adiciona permissões explícitas para evitar o erro de permissão (exit code 4)
 permissions:
   contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # Resolve o aviso de depreciação
-    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -27,14 +23,26 @@ jobs:
           outputs: |
             dist/pacman.svg?color_snake=#FFFF00&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&palette=github-dark
 
-      - name: Apply Neon Style (Customization)
+      - name: Apply High Contrast Style
         run: |
           FILE="dist/pacman.svg"
-          # Força o fundo preto e as linhas brancas finas no grid
+          # 1. Garante fundo preto absoluto
           sed -i 's/background-color:[^;"]*/background-color:#000000/g' $FILE
-          sed -i 's/stroke="[^"]*"/stroke="#ffffff" stroke-width="0.1" stroke-opacity="0.4"/g' $FILE
-          # Garante que o Pacman (Snake) continue amarelo
-          sed -i 's/fill="#FFFF00"/fill="#FFFF00" stroke="none"/g' $FILE
+          sed -i 's/<svg/<svg style="background-color:#000000"/g' $FILE
+          
+          # 2. Deixa os quadrados sem preenchimento e com borda branca nítida (estilo o exemplo)
+          sed -i 's/fill="[^"]*"/fill="none"/g' $FILE
+          sed -i 's/rx="[^"]*"/rx="0"/g' $FILE
+          sed -i 's/ry="[^"]*"/ry="0"/g' $FILE
+          sed -i 's/<rect /<rect stroke="#ffffff" stroke-width="0.1" stroke-opacity="1" /g' $FILE
+
+          # 3. Restaura as cores dos Personagens para não ficarem transparentes
+          sed -i 's/fill="none"[^>]*#FFFF00/fill="#FFFF00" stroke="none"/g' $FILE
+          sed -i 's/fill="none"[^>]*#ff0000/fill="#FF0000" stroke="none"/g' $FILE
+          sed -i 's/fill="none"[^>]*#ff4cff/fill="#FF0000" stroke="none"/g' $FILE
+          sed -i 's/fill="none"[^>]*#7a5cff/fill="#FF69B4" stroke="none"/g' $FILE
+          sed -i 's/fill="none"[^>]*#00ffff/fill="#00FFFF" stroke="none"/g' $FILE
+          sed -i 's/fill="none"[^>]*#ffa500/fill="#FF8C00" stroke="none"/g' $FILE
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
