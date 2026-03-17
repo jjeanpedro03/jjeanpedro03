@@ -1,0 +1,23 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: :contentReference[oaicite:0]{index=0}@v3
+        with:
+          github_user_name: jjeanpedro03
+          outputs: |
+            dist/snake.svg?color_snake=cyan&background=transparent
+
+      - name: Push para branch output
+        uses: EndBug/add-and-commit@v9
+        with:
+          branch: output
+          message: "update snake"
+          add: "dist/*"
