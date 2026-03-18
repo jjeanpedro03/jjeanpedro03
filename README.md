@@ -1,9 +1,9 @@
 <table align="center" border="0" width="100%">
   <tr>
     <td align="center">
-      <h1 align="center" style="font-size: 20px;">Hi there 👋</h1>
+      <h1 align="center" style="font-size: 10px;">Hi there 👋</h1>
       <p align="center">
-        Hello, my name is Jean Pedro. I'm a Full-Stack developer specializing in JavaScript, with knowledge of frameworks, libraries, and complementary tools. Welcome to my profile.
+        My name is Jean Pedro. I'm a Full-Stack developer specializing in JavaScript, with knowledge of frameworks, libraries, and complementary tools. Welcome to my profile.
       </p>
     </td>
   </tr>
