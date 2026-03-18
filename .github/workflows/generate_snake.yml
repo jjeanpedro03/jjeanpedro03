@@ -1,12 +1,9 @@
-name: Generate Snake
+name: generate animation
 
 on:
-  # Executa automaticamente todos os dias às 00:00 UTC
   schedule:
-    - cron: "0 0 * * *"
-  # Permite executar manualmente a partir da aba Actions
+    - cron: "0 */24 * * *" 
   workflow_dispatch:
-  # Executa a cada push na branch principal (opcional, para testes)
   push:
     branches:
     - main
@@ -14,20 +11,18 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     
     steps:
-      # Gera o jogo da cobra (snake game) a partir do gráfico de contribuições do usuário
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Gera a imagem com o tema do Pac-Man (snake)
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        # O segredo está aqui: o parâmetro 'palette=github-dark' gera o labirinto da imagem 04
 
-      # Faz o deploy do arquivo gerado para uma branch separada (output)
       - name: push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
