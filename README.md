@@ -39,13 +39,11 @@
       <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jjeanpedro03&layout=compact&theme=transparent&hide_border=true" />
     </td>
   </tr>
-
-  <tr><td></td></tr>
-
-  <tr>
-    <td align="center">
-      <br>
-      <img src="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/github-contribution-grid-snake-dark.svg" alt="Pac-Man">
-    </td>
-  </tr>
 </table>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/pacman-contribution-graph.svg">
+</picture>
+
