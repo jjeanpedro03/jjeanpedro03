@@ -33,10 +33,10 @@
   <tr>
     <td align="center">
       <h2 align="center">📊 GitHub Stats</h2>
-      <img height="150px" src="https://github-readme-stats.vercel.app/api?username=jeanpedro20&show_icons=true&theme=dark&hide_border=true&count_private=true" />
-      <img height="150px" src="https://github-readme-streak-stats.herokuapp.com/?user=jeanpedro20&theme=dark&hide_border=true" />
+      <img height="150px" src="https://github-readme-stats.vercel.app/api?username=jeanpedro20&show_icons=true&theme=transparent&hide_border=true&count_private=true" />
+      <img height="150px" src="https://github-readme-streak-stats.herokuapp.com/?user=jeanpedro20&theme=transparent&hide_border=true" />
       <br><br>
-      <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeanpedro20&layout=compact&theme=dark&hide_border=true" />
+      <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jeanpedro20&layout=compact&theme=transparent&hide_border=true" />
     </td>
   </tr>
 
