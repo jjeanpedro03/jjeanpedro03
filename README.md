@@ -45,7 +45,7 @@
   <tr>
     <td align="center">
       <br>
-      <img src="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/github-contribution-grid-snake-dark.svg" alt="Pac-Man Snake">
+      <img src="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/github-contribution-grid-snake-dark.svg" alt="Pac-Man">
     </td>
   </tr>
 </table>
