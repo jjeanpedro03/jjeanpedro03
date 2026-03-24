@@ -1,49 +1,106 @@
-<table align="center" border="0" width="100%">
-  <tr>
-    <td align="center">
-      <h1 align="center" style="font-size: 10px;">Hi there 👋</h1>
-      <p align="center">
-        My name is Jean Pedro. I'm a Full-Stack developer specializing in JavaScript, with knowledge of frameworks, libraries, and complementary tools. Welcome to my profile.
-      </p>
-    </td>
-  </tr>
+<h1 align="center">Hi there 👋</h1>
 
-  <tr><td></td></tr>
+<p align="center">
+  I'm <strong>Jean Pedro</strong>, a Full-Stack developer focused on JavaScript and modern web technologies.<br/>
+  I build practical and scalable solutions, combining clean code, performance and user experience.
+</p>
 
-  <tr>
-    <td align="center">
-      <h2 align="center">🛠️ Skills</h2>
-      <img src="https://skillicons.dev/icons?i=html,css,js,ts,mysql,nodejs,react,figma,git&perline=9" height="35px" />
-    </td>
-  </tr>
+---
 
-  <tr><td></td></tr>
+## 🚀 What I'm focused on
 
-  <tr>
-    <td align="center">
-      <h2 align="center">🌐 Socials</h2>
-      <a href="https://www.linkedin.com/in/jean-pedro03" target="_blank" style="text-decoration:none;"><img src="https://skillicons.dev/icons?i=linkedin" height="35px" /></a>
-      &nbsp;&nbsp;
-      <a href="mailto:jjeanpedro20@gmail.com" style="text-decoration:none;"><img src="https://skillicons.dev/icons?i=gmail" height="35px" /></a>
-    </td>
-  </tr>
+- Building real-world projects (CLI, Web Systems and APIs)  
+- Improving my skills in Node.js and backend development  
+- Creating solutions for small businesses and real problems  
 
-  <tr><td></td></tr>
+---
 
-  <tr>
-    <td align="center">
-      <h2 align="center">📊 GitHub Stats</h2>
-      <img height="150px" src="https://github-readme-stats.vercel.app/api?username=jjeanpedro03&show_icons=true&theme=transparent&hide_border=true&count_private=true" />
-      <img height="150px" src="https://github-readme-streak-stats.herokuapp.com/?user=jjeanpedro03&theme=transparent&hide_border=true" />
-      <br><br>
-      <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jjeanpedro03&layout=compact&theme=transparent&hide_border=true" />
-    </td>
-  </tr>
+## 🛠️ Skills
+
+<table align="left">
+<tr>
+
+<td align="center" width="150" valign="top">
+
+**Front-End**  
+<br/>
+
+<img src="https://skillicons.dev/icons?i=html" height="35"/><br/>
+<img src="https://skillicons.dev/icons?i=css" height="35"/><br/>
+<img src="https://skillicons.dev/icons?i=js" height="35"/><br/>
+<img src="https://skillicons.dev/icons?i=react" height="35"/>
+
+</td>
+
+<td align="center" width="150" valign="top">
+
+**Back-End**  
+<br/>
+
+<img src="https://skillicons.dev/icons?i=nodejs" height="35"/><br/>
+<img src="https://skillicons.dev/icons?i=ts" height="35"/><br/>
+<img src="https://skillicons.dev/icons?i=mysql" height="35"/>
+
+</td>
+
+<td align="center" width="150" valign="top">
+
+**Tools & Design**  
+<br/>
+
+<img src="https://skillicons.dev/icons?i=git" height="35"/><br/>
+<img src="https://skillicons.dev/icons?i=figma" height="35"/>
+
+</td>
+
+</tr>
 </table>
+
+<br clear="left"/>
+
+---
+
+## 🌐 Let's connect
+
+I'm currently looking for opportunities as a Junior Developer.  
+Feel free to reach out for collaborations or just a tech conversation.
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/jean-pedro03">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" height="35" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="mailto:jjeanpedro20@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" height="35"/>
+  </a>
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<table>
+<tr>
+
+<td>
+<img height="140" src="https://github-readme-stats.vercel.app/api?username=jjeanpedro03&show_icons=true&theme=transparent&hide_border=true&count_private=true"/>
+</td>
+
+<td>
+<img height="140" src="https://github-readme-streak-stats.herokuapp.com/?user=jjeanpedro03&theme=transparent&hide_border=true"/>
+</td>
+
+<td>
+<img height="140" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jjeanpedro03&layout=compact&theme=transparent&hide_border=true"/>
+</td>
+
+</tr>
+</table>
+
+---
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/pacman-contribution-graph.svg">
 </picture>
-
