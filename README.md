@@ -1,8 +1,9 @@
-<h1 align="center">Hi there 👋</h1>
+<h1 align="center">Glad you're here!</h1>
 
 <p align="center">
-  I'm <strong>Jean Pedro</strong>, a Full-Stack developer focused on JavaScript and modern web technologies.<br/>
-  I build practical and scalable solutions, combining clean code, performance and user experience.
+  I'm <strong>Jean Pedro</strong>, a Full-stack developer focused on JavaScript and modern web technologies.<br/>
+  I build practical and scalable solutions by combining clean code, performance, and user experience.<br/>
+  <strong>Leveraging AI-assisted development to optimize workflows and accelerate high-quality delivery.</strong>
 </p>
 
 ---
@@ -37,7 +38,7 @@
 **Back-End**  
 <br/>
 
-<img src="https://skillicons.dev/icons?i=nodejs" height="35"/><br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="35"/><br/>
 <img src="https://skillicons.dev/icons?i=ts" height="35"/><br/>
 <img src="https://skillicons.dev/icons?i=mysql" height="35"/>
 
@@ -48,8 +49,10 @@
 **Tools & Design**  
 <br/>
 
+<img src="https://skillicons.dev/icons?i=vscode" height="35"/>
 <img src="https://skillicons.dev/icons?i=git" height="35"/><br/>
 <img src="https://skillicons.dev/icons?i=figma" height="35"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" height="35" />
 
 </td>
 
