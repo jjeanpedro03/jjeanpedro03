@@ -72,7 +72,7 @@ Feel free to reach out for collaborations or just a tech conversation.
   <a href="https://www.linkedin.com/in/jean-pedro03">
     <img src="https://skillicons.dev/icons?i=linkedin" height="35"/>
   </a>
-  &nbsp;&nbsp;&nbsp;
+  &nbsp;
   <a href="mailto:jjeanpedro20@gmail.com">
     <img src="https://skillicons.dev/icons?i=gmail" height="35"/>
   </a>
