@@ -86,7 +86,7 @@ Feel free to reach out for collaborations or just a tech conversation.
 <tr>
 
 <td>
-<img height="140" src="https://github-readme-stats.vercel.app/api?username=jjeanpedro03&show_icons=true&theme=transparent&hide_border=true&count_private=true"/>
+<img height="140" src="https://github-readme-stats-sigma-five.vercel.app/api?username=jjeanpedro03&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF"/>
 </td>
 
 <td>
