@@ -24,11 +24,11 @@
 <td align="center" width="150" valign="top">
 
 **Front-End**  
-<br/>
 
-<img src="https://skillicons.dev/icons?i=html" height="35"/><br/>
+<img src="https://skillicons.dev/icons?i=html" height="35"/>
 <img src="https://skillicons.dev/icons?i=css" height="35"/><br/>
-<img src="https://skillicons.dev/icons?i=js" height="35"/><br/>
+<img src="https://skillicons.dev/icons?i=js" height="35"/>
+<img src="https://skillicons.dev/icons?i=bootstrap" height="35"/><br/>
 <img src="https://skillicons.dev/icons?i=react" height="35"/>
 
 </td>
@@ -36,9 +36,8 @@
 <td align="center" width="150" valign="top">
 
 **Back-End**  
-<br/>
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="35"/><br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="35"/>
 <img src="https://skillicons.dev/icons?i=ts" height="35"/><br/>
 <img src="https://skillicons.dev/icons?i=mysql" height="35"/>
 
@@ -47,7 +46,6 @@
 <td align="center" width="150" valign="top">
 
 **Tools & Design**  
-<br/>
 
 <img src="https://skillicons.dev/icons?i=vscode" height="35"/>
 <img src="https://skillicons.dev/icons?i=git" height="35"/><br/>
