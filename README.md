@@ -52,9 +52,10 @@
 <img src="https://skillicons.dev/icons?i=git" height="35"/>
 <img src="https://cdn.simpleicons.org/yaml/CB171E" height="35"/><br/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original.svg" height="35"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" height="35" /><br/>
-<img src="https://skillicons.dev/icons?i=figma" height="35"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" height="35" />
+<img src="https://skillicons.dev/icons?i=figma" height="35"/><br/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" height="35"/>
+<img src="https://skillicons.dev/icons?i=bash" height="35"/>
         
 </td>
 
