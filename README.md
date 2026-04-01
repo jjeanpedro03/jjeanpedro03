@@ -50,8 +50,9 @@
 
 <img src="https://skillicons.dev/icons?i=vscode" height="35"/>
 <img src="https://skillicons.dev/icons?i=git" height="35"/><br/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original.svg" height="35"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" height="35" /><br/>
 <img src="https://skillicons.dev/icons?i=figma" height="35"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" height="35" />
 
 </td>
 
