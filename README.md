@@ -38,10 +38,11 @@
 **Back-End**  
 
 <img src="https://skillicons.dev/icons?i=ts" height="35"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" height="35"/><br/>
+<img src="https://skillicons.dev/icons?i=express" height="35"/>
+<img src="https://skillicons.dev/icons?i=nodejs" height="35"/><br/>
 <img src="https://skillicons.dev/icons?i=nestjs" height="35"/>
-<img src="https://skillicons.dev/icons?i=mysql" height="35"/><br/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg" height="35"/>
+<img src="https://skillicons.dev/icons?i=mysql" height="35"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg" height="35"/><br/>
 </td>
 
 <td align="center" width="150" valign="top">
