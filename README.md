@@ -18,52 +18,50 @@
 
 ## 🛠️ Skills
 
-<table align="left">
+<div align="center">
+<table width="900">
 <tr>
 
-<td align="center" width="150" valign="top">
-
-**Front-End**  
-
-<img src="https://skillicons.dev/icons?i=html" height="35"/>
-<img src="https://skillicons.dev/icons?i=css" height="35"/><br/>
-<img src="https://skillicons.dev/icons?i=js" height="35"/>
-<img src="https://skillicons.dev/icons?i=bootstrap" height="35"/><br/>
-<img src="https://skillicons.dev/icons?i=react" height="35"/>
-
+<td align="center" width="300" valign="top">
+<br/>
+<p align="center"><strong>Front-End</strong></p>
+<img src="https://skillicons.dev/icons?i=html" height="40"/>
+<img src="https://skillicons.dev/icons?i=css" height="40"/>
+<img src="https://skillicons.dev/icons?i=js" height="40"/>
+<img src="https://skillicons.dev/icons?i=bootstrap" height="40"/>
+<img src="https://skillicons.dev/icons?i=react" height="40"/>
+<br/><br/>
 </td>
 
-<td align="center" width="150" valign="top">
-
-**Back-End**  
-
-<img src="https://skillicons.dev/icons?i=ts" height="35"/>
-<img src="https://skillicons.dev/icons?i=express" height="35"/>
-<img src="https://skillicons.dev/icons?i=nodejs" height="35"/><br/>
-<img src="https://skillicons.dev/icons?i=nestjs" height="35"/>
-<img src="https://skillicons.dev/icons?i=mysql" height="35"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg" height="35"/><br/>
+<td align="center" width="300" valign="top">
+<br/>
+<p align="center"><strong>Back-End</strong></p>
+<img src="https://skillicons.dev/icons?i=ts" height="40"/>
+<img src="https://skillicons.dev/icons?i=express" height="40"/>
+<img src="https://skillicons.dev/icons?i=nodejs" height="40"/>
+<img src="https://skillicons.dev/icons?i=nestjs" height="40"/>
+<img src="https://skillicons.dev/icons?i=mysql" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg" height="40"/>
+<br/><br/>
 </td>
 
-<td align="center" width="150" valign="top">
-
-**Tools & Design**  
-
-<img src="https://skillicons.dev/icons?i=vscode" height="35"/>
-<img src="https://skillicons.dev/icons?i=git" height="35"/>
-<img src="https://cdn.simpleicons.org/yaml/CB171E" height="35"/><br/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original.svg" height="35"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" height="35" />
-<img src="https://skillicons.dev/icons?i=figma" height="35"/><br/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" height="35"/>
-<img src="https://skillicons.dev/icons?i=bash" height="35"/>
-        
+<td align="center" width="300" valign="top">
+<br/>
+<p align="center"><strong>Tools & Design</strong></p>
+<img src="https://skillicons.dev/icons?i=vscode" height="40"/>
+<img src="https://skillicons.dev/icons?i=git" height="40"/>
+<img src="https://cdn.simpleicons.org/yaml/CB171E" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original.svg" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" height="40" />
+<img src="https://skillicons.dev/icons?i=figma" height="40"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" height="40"/>
+<img src="https://skillicons.dev/icons?i=bash" height="40"/>
+<br/><br/>
 </td>
 
 </tr>
 </table>
-
-<br clear="left"/>
+</div>
 
 ---
 
