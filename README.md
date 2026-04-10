@@ -6,7 +6,7 @@
   <strong>Leveraging AI-assisted development to optimize workflows and accelerate high-quality delivery.</strong>
 </p>
 
-<img src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" width="100%" loading="lazy">
+---
 
 ## 🚀 What I'm focused on
 
@@ -109,3 +109,5 @@ Feel free to reach out for collaborations or just a tech conversation.
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/pacman-contribution-graph.svg">
 </picture>
+
+<img src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" width="100%" loading="lazy">
