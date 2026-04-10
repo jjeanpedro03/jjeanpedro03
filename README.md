@@ -6,7 +6,7 @@
   <strong>Leveraging AI-assisted development to optimize workflows and accelerate high-quality delivery.</strong>
 </p>
 
----
+<img src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" width="100%" loading="lazy">
 
 ## 🚀 What I'm focused on
 
@@ -14,7 +14,7 @@
 - Improving my skills in Node.js and backend development  
 - Creating solutions for small businesses and real problems  
 
----
+<img src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" width="100%" loading="lazy">
 
 <h2 align="center">🛠️ Skills</h2>
 
@@ -63,7 +63,7 @@
 </table>
 </div>
 
----
+<img src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" width="100%" loading="lazy">
 
 ## 🌐 Let's connect
 
@@ -80,7 +80,7 @@ Feel free to reach out for collaborations or just a tech conversation.
   </a>
 </p>
 
----
+<img src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" width="100%" loading="lazy">
 
 <h2 align="center">📊 GitHub Stats</h2>
 
@@ -102,7 +102,7 @@ Feel free to reach out for collaborations or just a tech conversation.
 </tr>
 </table>
 
----
+<img src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" width="100%" loading="lazy">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/pacman-contribution-graph-dark.svg">
