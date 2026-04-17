@@ -30,6 +30,7 @@
 <img src="https://skillicons.dev/icons?i=js" height="30"/>
 <img src="https://skillicons.dev/icons?i=bootstrap" height="30"/>
 <img src="https://skillicons.dev/icons?i=react" height="30"/>
+<img src="https://skillicons.dev/icons?i=vite" height="30"/>
 <br/><br/>
 </td>
 
@@ -51,11 +52,9 @@
 <img src="https://skillicons.dev/icons?i=vscode" height="30"/>
 <img src="https://skillicons.dev/icons?i=figma" height="30"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" height="30"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" height="30"/>
 <img src="https://skillicons.dev/icons?i=git" height="30"/>
 <img src="https://skillicons.dev/icons?i=bash" height="30"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original.svg" height="30"/>
-<img src="https://cdn.simpleicons.org/yaml/CB171E" height="30"/>
 <br/><br/>
 </td>
 
