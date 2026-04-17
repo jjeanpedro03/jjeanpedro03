@@ -29,7 +29,8 @@
 <img src="https://skillicons.dev/icons?i=css" height="30"/>
 <img src="https://skillicons.dev/icons?i=js" height="30"/>
 <img src="https://skillicons.dev/icons?i=bootstrap" height="30"/>
-<img src="https://skillicons.dev/icons?i=react" height="30"/>
+<img src="https://skillicons.dev/icons?i=tailwind" height="30"/>
+<img src="https://skillicons.dev/icons?i=react" height="30"/><br>
 <img src="https://skillicons.dev/icons?i=vite" height="30"/>
 <br/><br/>
 </td>
