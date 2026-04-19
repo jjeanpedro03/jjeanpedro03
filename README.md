@@ -45,6 +45,8 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-original.svg" height="30"/>
 <img src="https://skillicons.dev/icons?i=mysql" height="30"/><br>
 <img src="https://skillicons.dev/icons?i=postgres" height="30"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" height="30"/>
+          
 <br/><br/>
 </td>
 
