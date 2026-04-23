@@ -59,7 +59,6 @@
 <img src="https://skillicons.dev/icons?i=git" height="30"/>
 <img src="https://skillicons.dev/icons?i=bash" height="30"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original.svg" height="30"/><br/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swagger/swagger-original.svg" height="30"/>
 <img src="https://skillicons.dev/icons?i=vercel" height="30"/>
   
 <br/><br/>
