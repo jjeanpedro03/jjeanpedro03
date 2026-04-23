@@ -107,7 +107,7 @@ Feel free to reach out for collaborations or just a tech conversation.
 </tr>
 </table>
 
-<img src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp" width="100%" loading="lazy">
+---
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jjeanpedro03/jjeanpedro03/output/pacman-contribution-graph-dark.svg">
