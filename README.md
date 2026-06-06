@@ -1,22 +1,22 @@
-<h1 align="center">Glad you're here!</h1>
+<h1 align="center">Que bom que você está aqui!</h1>
 
 <p align="center">
-  I'm <strong>Jean Pedro</strong>, a Full-stack developer focused on JavaScript and modern web technologies.<br/>
-  I build practical and scalable solutions by combining clean code, performance, and user experience.<br/>
-  <strong>Leveraging AI-assisted development to optimize workflows and accelerate high-quality delivery.</strong>
+  Meu nome é <strong>Jean Pedro</strong>, Sou um desenvolvedor Full-stack com foco em sistemas web escaláveis.<br/>
+  Eu construo soluções práticas e escaláveis ​​combinando código limpo, desempenho e experiência do usuário.<br/>
+  <strong>Aproveito o desenvolvimento assistido por IA para otimizar fluxos de trabalho e acelerar a entrega de alta qualidade.</strong>
 </p>
 
 ---
 
-## 🚀 What I'm focused on
+## 🚀 Foco principal
 
-- Building real-world projects (CLI, Web Systems and APIs)  
-- Improving my skills in Node.js and backend development  
-- Creating solutions for small businesses and real problems  
+- Desenvolvimento de projetos do mundo real (CLI, sistemas web e APIs)  
+- Aprimoramento constante minhas habilidades em Node.js e desenvolvimento backend.  
+- Criando soluções para pequenas empresas e problemas reais.  
 
 ---
 
-<h2 align="center">🛠️ Skills</h2>
+<h2 align="center">🛠️ Habilidades</h2>
 
 <div align="center">
 <table width="900">
@@ -69,10 +69,10 @@
 
 ---
 
-## 🌐 Let's connect
+## 🌐 Vamos nos conectar
 
-I'm currently looking for opportunities as a Junior Developer.  
-Feel free to reach out for collaborations or just a tech conversation.
+Atualmente estou em busca de oportunidades como Desenvolvedor Júnior.  
+Fique à vontade para entrar em contato para colaborações ou apenas para uma conversa sobre tecnologia.
 
 <p align="left">
   <a href="https://www.linkedin.com/in/jean-pedro03">
@@ -86,7 +86,7 @@ Feel free to reach out for collaborations or just a tech conversation.
 
 ---
 
-<h2 align="center">📊 GitHub Stats</h2>
+<h2 align="center">📊 Estatísticas</h2>
 
 <table>
 <tr>
