@@ -10,8 +10,8 @@
 
 ## 🚀 Foco principal
 
-- Desenvolvimento de projetos do mundo real (CLI, sistemas web e APIs)  
-- Aprimoramento constante minhas habilidades em Node.js e desenvolvimento backend.  
+- Aprimoramento constante minhas habilidades em Node.js e desenvolvimento backend.
+- Desenvolvimento de projetos do mundo real (CLI, sistemas web e APIs)    
 - Criando soluções para pequenas empresas e problemas reais.  
 
 ---
